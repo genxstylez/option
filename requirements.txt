@@ -1,0 +1,10 @@
+django==1.4.5
+django-grappelli
+pillow
+easy_thumbnails
+django-modeltranslation
+grappelli-modeltranslation
+gunicorn
+python-memcached
+linaro-django-pagination
+django-admin-sortable

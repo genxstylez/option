@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-04-15 09:45+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: models.py:7 models.py:15 models.py:23 models.py:39 models.py:51
+#: models.py:65
+msgid "name"
+msgstr ""
+
+#: models.py:8 models.py:44
+msgid "description"
+msgstr ""
+
+#: models.py:16
+msgid "category"
+msgstr ""
+
+#: models.py:24
+msgid "make"
+msgstr ""
+
+#: models.py:40
+msgid "extra"
+msgstr ""
+
+#: models.py:41
+msgid "series"
+msgstr ""
+
+#: models.py:42
+msgid "thumb off"
+msgstr ""
+
+#: models.py:43
+msgid "thumb on"
+msgstr ""
+
+#: models.py:52
+msgid "year"
+msgstr "年份"
+
+#: models.py:53 models.py:66
+msgid "model"
+msgstr ""
+
+#: models.py:54
+msgid "material"
+msgstr "材料"
+
+#: models.py:55
+msgid "specs"
+msgstr "规格"
+
+#: models.py:67
+msgid "image"
+msgstr ""
+
+#: templates/product/model.html:6
+msgid "Home"
+msgstr "首页"
+
+#: templates/product/model.html:6
+msgid "Products"
+msgstr "产品资料"
+
+#: templates/product/model.html:14
+msgid "Year"
+msgstr "车款年份"
+
+#: templates/product/model.html:15
+msgid "Type"
+msgstr "产品分类"
+
+#: templates/product/model.html:16
+msgid "Specification"
+msgstr "产品规格"
+
+#~ msgid "Material & Specs"
+#~ msgstr "材质和规格"
+
+#~ msgid "Specs"
+#~ msgstr "规格"
