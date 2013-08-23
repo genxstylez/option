@@ -6,12 +6,11 @@
         <div class="latest-posts">
             {% autopaginate news 5 %}
             {% for n in news %}
-            <div class="sc-page">
+            <div class="news-list">
                 <div class="text">
                     <h3><a href="{% url news n.id %}">{{ n.title }}</a></h3>
                     <p>{{ n.content|safe|truncatechars:130 }}</p>
                 </div><!-- /.text -->
-                <div class="rule"></div>
             </div>
             {% endfor %}
         </div>

@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+{% extends 'alt_base.html' %}
 {% load i18n pagination_tags staticfiles thumbnail %}
 {% block content %}
     <div id="news_wrapper">
@@ -6,10 +6,10 @@
         <div class="latest-posts">
             {% autopaginate galleries 5 %}
             {% for g in galleries %}
-            <div class="sc-page">
+            <div class="sc-page" style="width: 300px; margin-left: 150px;">
                 <div class="image">
                     <a href="{% url gallery g.id %}">
-                        <img class="lazy" style="width:auto; height: auto;" data-original="{{ g.cover.url }}" src="{% static 'images/150x60.png' %}" />
+                        <img class="lazy" style="width:auto; height: auto; border: 1px solid rgb(170, 170, 170); padding: 5px;" data-original="{{ g.cover.url }}" src="{% static 'images/150x60.png' %}" />
                     </a>
                 </div>
                 <div class="text">

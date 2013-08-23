@@ -26,3 +26,8 @@ urlpatterns += i18n_patterns('',
     url(r'^gallery/', include('gallery.urls')),
     url(r'^product/', include('product.urls')),
 )
+
+if settings.DEBUG:
+    urlpatterns += patterns('',
+    (r'^media/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.MEDIA_ROOT}),
+)

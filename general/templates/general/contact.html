@@ -1,13 +1,20 @@
-{% extends 'base.html' %}
+{% extends 'alt_base.html' %}
 {% load staticfiles %}
 {% block content %}
     <div id="dealer_wrapper">
-        <img class="lazy" data-original={% static 'images/map.jpg' %} src="{% static 'images/900x347.png' %}">
-        <h1>御霖企業集團成員 / Members of Yuh Lin Auto Group</h1>
+        <div style="width: 880px; margin: 0 auto;"><img class="lazy" data-original={% static 'images/map.jpg' %} src="{% static 'images/900x347.png' %}"i style="width: 880px;"></div>
+        <h1>Option Motor Club</h1>
+        <div class="dealer_list_full">
+            <p>Office Hours：Mon - Sun 09:00 - 18:00 (GMT+8)<br />
+            Should you have any enquiries, please feel free to contact us<br />
+            <br />
+            營業時間：星期一至星期日 09:00 - 18:00 (GMT+8)<br />
+            關於我們的產品，如有任何洽詢歡迎寫信或來電至台灣總部或各地經銷商。
+            </p>
+        </div>
         <ul class="dealer_list">
             <li class="header">總部：台灣御霖興業有限公司 / TAIWAN Headquarters</li>
-            <li class="s_data_left"><i class="m_icon-tel"></i>：(+886) 2-2297-3939</li>
-            <li class="s_data_right"><i class="m_icon-msn"></i>：(+886) 2-2297-3737</li>
+            <li ><i class="m_icon-tel"></i>：(+886) 2-2297-3939 / (+886) 2-2297-3737</li>
             <li class="s_data_left"><i class="m_icon-skype"></i>：tw-yuhlinauto</li>
             <li class="s_data_right"><i class="m_icon-mail"></i>：<a href="mailto:yuhlinauto@outlook.com">yuhlinauto@outlook.com</a></li>
             <li><i class="m_icon-qq"></i>：2539183087 / 1277915053 / 2228335193 / 2271866483</li>
@@ -26,11 +33,22 @@
             <li class="s_data_right"><i class="m_icon-mail"></i>：<a href="mailto:yuhlinauto@163.com">yuhlinauto@163.com</a></li>
             <li><i class="m_icon-qq"></i>：2355287411 / 2355287420 / 2355287421 / 2355287423</li>
         </ul>
+        <ul class="dealer_list last" style="padding-bottom:27px;">
+            <li class="header">捷克經銷商：Auto-Moto Riegger s.r.o / Czech</li>
+            <li><i class="m_icon-tel"></i>：(+420) 724-281-486</li>
+            <li class="s_data_left"><i class="m_icon-skype"></i>：Jakub Jursik</li>
+            <li class="s_data_right"><i class="m_icon-mail"></i>：<a href="mailto:admin@riegger.cz">admin@riegger.cz</a></li>
+        </ul>
+        <ul class="dealer_list">
+            <li class="header">新加坡經銷商: MPT Group Pte Ltd / Singapore</li>
+            <li><i class="m_icon-tel"></i>：(+65) 6447-4588</li>
+            <li><i class="m_icon-mail"></i>：<a href="mailto:kohaikleong@mptgrp.com">kohaikleong@mptgrp.com</a></li>
+        </ul>
         <ul class="dealer_list last">
-            <p>Office Hour：Mon - Sun 09:00 - 18:00 (GMT+8)</p>
-            <p>Should you have any enquiries, please feel free to contact us.</p>
-            <p>營業時間：星期一至星期日 09:00 - 18:00 (GMT+8)</p>
-            <p style="padding-bottom: 6px;">關於我們的產品，如有任何洽詢歡迎寫信或來電至台灣總部或各地經銷商。</p>
+            <li class="header">荷蘭經銷商：Designparts Europe B.V / Netherland</li>
+            <li><i class="m_icon-tel"></i>：(+31) 10-2329991</li>
+            <li class="s_data_left"><i class="m_icon-skype"></i>：m.lagerwaard</li>
+            <li class="s_data_right"><i class="m_icon-mail"></i>：<a href="mailto:info@designparts.nl">info@designparts.nl</a></li>
         </ul>
         <div class="clearing"></div>
     </div>

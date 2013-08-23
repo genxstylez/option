@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+{% extends 'alt_base.html' %}
 {% load i18n staticfiles thumbnail %}
 {% block content %}
 <div id="news_wrapper">
@@ -6,7 +6,6 @@
         <a href="{% url gallery-list %}">{% trans 'Gallery' %}</a> / <a href="{% url gallery gallery.id %}">{{ gallery.title }}</a>
     </div>
     <div id="content">
-        <h1>{{ gallery.title }}</h1>
         <div id="ps_container" class="ps_container">
             <div class="ps_image_wrapper">
                 <img class="f_item" src="{% thumbnail f_item.image 780x300 sharpen %}" alt="">

@@ -7,7 +7,7 @@ class Gallery(models.Model):
     def gallery_cover_path(self, filename):
         filename = filename.encode('utf-8')
         return 'gallery/cover/%s' % filename
-    cover = ThumbnailerImageField(_('cover'), upload_to=gallery_cover_path, resize_source=dict(size=(150, 58), sharpen=True))
+    cover = ThumbnailerImageField(_('cover'), upload_to=gallery_cover_path, resize_source=dict(size=(160, 90), sharpen=True))
     title = models.CharField(_('title'), max_length=50)
     created_at = models.DateTimeField(_('created at'), auto_now_add=True)
     last_modified = models.DateTimeField(_('last modified'), auto_now=True)
